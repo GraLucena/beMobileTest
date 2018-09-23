@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0199C2710268A87371043BF3 /* Pods_beMobileTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8178F61A2622D1244B7597 /* Pods_beMobileTest.framework */; };
 		6F22E8C72154F24E00D31D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8C62154F24E00D31D9D /* AppDelegate.swift */; };
 		6F22E8C92154F24E00D31D9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8C82154F24E00D31D9D /* ViewController.swift */; };
 		6F22E8CC2154F24E00D31D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F22E8CA2154F24E00D31D9D /* Main.storyboard */; };
 		6F22E8CE2154F24F00D31D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F22E8CD2154F24F00D31D9D /* Assets.xcassets */; };
 		6F22E8D12154F24F00D31D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F22E8CF2154F24F00D31D9D /* LaunchScreen.storyboard */; };
+		6F22E8DF2154F9CD00D31D9D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8DE2154F9CD00D31D9D /* Router.swift */; };
+		6F22E8E22154FD3600D31D9D /* RateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8E12154FD3600D31D9D /* RateService.swift */; };
+		6F22E8E42154FE1100D31D9D /* RateAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8E32154FE1100D31D9D /* RateAPI.swift */; };
+		6F22E8E62154FE1D00D31D9D /* TransactionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8E52154FE1D00D31D9D /* TransactionAPI.swift */; };
+		6F22E8E82154FE3200D31D9D /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8E72154FE3200D31D9D /* Rate.swift */; };
+		6F22E8EA2154FE3A00D31D9D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8E92154FE3A00D31D9D /* Transaction.swift */; };
+		6F22E8EC2154FFDE00D31D9D /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8EB2154FFDE00D31D9D /* TransactionService.swift */; };
+		6F22E8F02155039C00D31D9D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8EF2155039C00D31D9D /* Coordinator.swift */; };
+		6F22E8F3215503B900D31D9D /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8F2215503B900D31D9D /* RootCoordinator.swift */; };
+		6F22E8F6215503EE00D31D9D /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8F4215503EE00D31D9D /* TransactionsViewController.swift */; };
+		6F22E8F7215503EE00D31D9D /* TransactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F22E8F5215503EE00D31D9D /* TransactionsViewController.xib */; };
+		6F22E90021550E6E00D31D9D /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E8FF21550E6E00D31D9D /* TransactionsViewModel.swift */; };
+		6F22E9022155123900D31D9D /* TransactionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22E9012155123900D31D9D /* TransactionCoordinator.swift */; };
+		6FAE0E002157DD1000CADCFF /* Rates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE0DFF2157DD1000CADCFF /* Rates.swift */; };
+		6FAE0E032157DF2100CADCFF /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE0E012157DF2100CADCFF /* TransactionDetailViewController.swift */; };
+		6FAE0E042157DF2100CADCFF /* TransactionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FAE0E022157DF2100CADCFF /* TransactionDetailViewController.xib */; };
+		6FAE0E072157E45A00CADCFF /* TransactionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE0E062157E45A00CADCFF /* TransactionDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37D9CBA00E80FC5181F09780 /* Pods-beMobileTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beMobileTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-beMobileTest/Pods-beMobileTest.debug.xcconfig"; sourceTree = "<group>"; };
 		6F22E8C32154F24E00D31D9D /* beMobileTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beMobileTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F22E8C62154F24E00D31D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F22E8C82154F24E00D31D9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +41,25 @@
 		6F22E8CD2154F24F00D31D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F22E8D02154F24F00D31D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F22E8D22154F24F00D31D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F22E8DE2154F9CD00D31D9D /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		6F22E8E12154FD3600D31D9D /* RateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateService.swift; sourceTree = "<group>"; };
+		6F22E8E32154FE1100D31D9D /* RateAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateAPI.swift; sourceTree = "<group>"; };
+		6F22E8E52154FE1D00D31D9D /* TransactionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAPI.swift; sourceTree = "<group>"; };
+		6F22E8E72154FE3200D31D9D /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		6F22E8E92154FE3A00D31D9D /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		6F22E8EB2154FFDE00D31D9D /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		6F22E8EF2155039C00D31D9D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6F22E8F2215503B900D31D9D /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		6F22E8F4215503EE00D31D9D /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		6F22E8F5215503EE00D31D9D /* TransactionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsViewController.xib; sourceTree = "<group>"; };
+		6F22E8FF21550E6E00D31D9D /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
+		6F22E9012155123900D31D9D /* TransactionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCoordinator.swift; sourceTree = "<group>"; };
+		6FAE0DFF2157DD1000CADCFF /* Rates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rates.swift; sourceTree = "<group>"; };
+		6FAE0E012157DF2100CADCFF /* TransactionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewController.swift; sourceTree = "<group>"; };
+		6FAE0E022157DF2100CADCFF /* TransactionDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionDetailViewController.xib; sourceTree = "<group>"; };
+		6FAE0E062157E45A00CADCFF /* TransactionDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewModel.swift; sourceTree = "<group>"; };
+		AD8178F61A2622D1244B7597 /* Pods_beMobileTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beMobileTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F04A6D168073F94D3E7BB3 /* Pods-beMobileTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beMobileTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-beMobileTest/Pods-beMobileTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0199C2710268A87371043BF3 /* Pods_beMobileTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35EB122E2416724BEF454045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD8178F61A2622D1244B7597 /* Pods_beMobileTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		693411C6C470D3E2F4C513CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37D9CBA00E80FC5181F09780 /* Pods-beMobileTest.debug.xcconfig */,
+				F5F04A6D168073F94D3E7BB3 /* Pods-beMobileTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6F22E8BA2154F24E00D31D9D = {
 			isa = PBXGroup;
 			children = (
 				6F22E8C52154F24E00D31D9D /* beMobileTest */,
 				6F22E8C42154F24E00D31D9D /* Products */,
+				693411C6C470D3E2F4C513CC /* Pods */,
+				35EB122E2416724BEF454045 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +112,10 @@
 		6F22E8C52154F24E00D31D9D /* beMobileTest */ = {
 			isa = PBXGroup;
 			children = (
+				6F22E8ED2155038400D31D9D /* Utilities */,
+				6F22E8DB2154F51300D31D9D /* ViewControllers */,
+				6F22E8DA2154F50E00D31D9D /* Model */,
+				6F22E8D92154F50400D31D9D /* API */,
 				6F22E8C62154F24E00D31D9D /* AppDelegate.swift */,
 				6F22E8C82154F24E00D31D9D /* ViewController.swift */,
 				6F22E8CA2154F24E00D31D9D /* Main.storyboard */,
@@ -64,6 +126,107 @@
 			path = beMobileTest;
 			sourceTree = "<group>";
 		};
+		6F22E8D92154F50400D31D9D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6F22E8DD2154F52700D31D9D /* Services */,
+				6F22E8DC2154F52200D31D9D /* Networking */,
+				6F22E8E32154FE1100D31D9D /* RateAPI.swift */,
+				6F22E8E52154FE1D00D31D9D /* TransactionAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6F22E8DA2154F50E00D31D9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F22E8E72154FE3200D31D9D /* Rate.swift */,
+				6F22E8E92154FE3A00D31D9D /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F22E8DB2154F51300D31D9D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FAE0DFE2157DB7C00CADCFF /* TransactionDetail */,
+				6F22E8FD21550E4F00D31D9D /* TransactionList */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6F22E8DC2154F52200D31D9D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6F22E8DE2154F9CD00D31D9D /* Router.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6F22E8DD2154F52700D31D9D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6F22E8E12154FD3600D31D9D /* RateService.swift */,
+				6F22E8EB2154FFDE00D31D9D /* TransactionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6F22E8ED2155038400D31D9D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6F22E8EE2155038A00D31D9D /* Coordinators */,
+				6FAE0DFF2157DD1000CADCFF /* Rates.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6F22E8EE2155038A00D31D9D /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				6F22E8EF2155039C00D31D9D /* Coordinator.swift */,
+				6F22E8F2215503B900D31D9D /* RootCoordinator.swift */,
+				6F22E9012155123900D31D9D /* TransactionCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		6F22E8FD21550E4F00D31D9D /* TransactionList */ = {
+			isa = PBXGroup;
+			children = (
+				6F22E8FE21550E5D00D31D9D /* ViewModel */,
+				6F22E8F4215503EE00D31D9D /* TransactionsViewController.swift */,
+				6F22E8F5215503EE00D31D9D /* TransactionsViewController.xib */,
+			);
+			path = TransactionList;
+			sourceTree = "<group>";
+		};
+		6F22E8FE21550E5D00D31D9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6F22E8FF21550E6E00D31D9D /* TransactionsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6FAE0DFE2157DB7C00CADCFF /* TransactionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6FAE0E052157E43800CADCFF /* ViewModel */,
+				6FAE0E012157DF2100CADCFF /* TransactionDetailViewController.swift */,
+				6FAE0E022157DF2100CADCFF /* TransactionDetailViewController.xib */,
+			);
+			path = TransactionDetail;
+			sourceTree = "<group>";
+		};
+		6FAE0E052157E43800CADCFF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6FAE0E062157E45A00CADCFF /* TransactionDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F22E8D52154F24F00D31D9D /* Build configuration list for PBXNativeTarget "beMobileTest" */;
 			buildPhases = (
+				E360B94B647FA7722EC001CC /* [CP] Check Pods Manifest.lock */,
 				6F22E8BF2154F24E00D31D9D /* Sources */,
 				6F22E8C02154F24E00D31D9D /* Frameworks */,
 				6F22E8C12154F24E00D31D9D /* Resources */,
+				695C59126D5C3172838AB7FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +287,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FAE0E042157DF2100CADCFF /* TransactionDetailViewController.xib in Resources */,
 				6F22E8D12154F24F00D31D9D /* LaunchScreen.storyboard in Resources */,
 				6F22E8CE2154F24F00D31D9D /* Assets.xcassets in Resources */,
 				6F22E8CC2154F24E00D31D9D /* Main.storyboard in Resources */,
+				6F22E8F7215503EE00D31D9D /* TransactionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		695C59126D5C3172838AB7FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-beMobileTest/Pods-beMobileTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-beMobileTest/Pods-beMobileTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E360B94B647FA7722EC001CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-beMobileTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F22E8BF2154F24E00D31D9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FAE0E072157E45A00CADCFF /* TransactionDetailViewModel.swift in Sources */,
 				6F22E8C92154F24E00D31D9D /* ViewController.swift in Sources */,
+				6FAE0E002157DD1000CADCFF /* Rates.swift in Sources */,
+				6F22E8E42154FE1100D31D9D /* RateAPI.swift in Sources */,
+				6F22E8F6215503EE00D31D9D /* TransactionsViewController.swift in Sources */,
+				6F22E8F02155039C00D31D9D /* Coordinator.swift in Sources */,
+				6F22E8EA2154FE3A00D31D9D /* Transaction.swift in Sources */,
+				6F22E90021550E6E00D31D9D /* TransactionsViewModel.swift in Sources */,
+				6F22E8E22154FD3600D31D9D /* RateService.swift in Sources */,
+				6FAE0E032157DF2100CADCFF /* TransactionDetailViewController.swift in Sources */,
+				6F22E8E82154FE3200D31D9D /* Rate.swift in Sources */,
+				6F22E8DF2154F9CD00D31D9D /* Router.swift in Sources */,
+				6F22E8EC2154FFDE00D31D9D /* TransactionService.swift in Sources */,
 				6F22E8C72154F24E00D31D9D /* AppDelegate.swift in Sources */,
+				6F22E8F3215503B900D31D9D /* RootCoordinator.swift in Sources */,
+				6F22E9022155123900D31D9D /* TransactionCoordinator.swift in Sources */,
+				6F22E8E62154FE1D00D31D9D /* TransactionAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +501,7 @@
 		};
 		6F22E8D62154F24F00D31D9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D9CBA00E80FC5181F09780 /* Pods-beMobileTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +519,7 @@
 		};
 		6F22E8D72154F24F00D31D9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F04A6D168073F94D3E7BB3 /* Pods-beMobileTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

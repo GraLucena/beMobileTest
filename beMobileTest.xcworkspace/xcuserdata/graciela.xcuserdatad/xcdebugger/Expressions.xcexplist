@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in RateService.getRates(onCompletion:):RateService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "TransactionsDetailAPIViewModel.getRate(from:):TransactionDetailViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #5 in TransactionsDetailAPIViewModel.calculateTrasactions():TransactionDetailViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "TransactionsDetailAPIViewModel.verifyRates(from:):TransactionDetailViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Rates.shared.rates">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransactionsDetailAPIViewModel.calculateTrasactions():TransactionDetailViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CADtransactions">
+            </PersistentString>
+            <PersistentString
+               value = "USDtransactions">
+            </PersistentString>
+            <PersistentString
+               value = "EURtransactions">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransactionsDetailAPIViewModel.verifyTransactions():TransactionDetailViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Rates.shared.rates">
+            </PersistentString>
+            <PersistentString
+               value = "transactions">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in TransactionsDetailAPIViewModel.verifyTransactions():TransactionDetailViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Rates.shared.rates">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
